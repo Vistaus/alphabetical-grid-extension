@@ -19,7 +19,7 @@ function init() {
 function enable() {
   gridReorder = new Extension();
   //Reorder initially, to provide an intial reorder, as well as apps not already taken care of
-  gridReorder.reorderGrid();
+  //gridReorder.reorderGrid();
   //Wait until the grid is reordered or app folders changed for further reorders
   gridReorder.waitForExternalReorder();
   gridReorder.waitForFavouritesChange();
